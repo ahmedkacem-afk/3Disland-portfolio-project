@@ -4,12 +4,17 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
-
+import kayros from './kayros.png'
+import whitecape from './whitecape.png'
+import polymerengineering from './polymerengineering.png'
 export {
     hero,
     meta,
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    kayros,
+    whitecape,
+    polymerengineering
 }

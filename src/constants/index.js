@@ -1,38 +1,90 @@
-import { meta, shopify, starbucks, tesla, kayros } from "../assets/images";
+import { kayros, whitecape,polymerengineering } from "../assets/images";
 
 import {
-    car,
-    contact,
     css,
-    estate,
     express,
     git,
     github,
     html,
     javascript,
-    linkedin,
     mongodb,
     motion,
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
+    tailwindcss,
+    typescript,
+    linkedin,
+   
+    car,
+    estate,
+    pricewise,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript
+    
+    contact,
+    
+    nestjs,
+    solidity,
+    firebase,
+    php,
+    mysql,
+    postgresql,
+    pma,
+    figma
+    
 } from "../assets/icons";
 //simply add or remove skills | projects add them to the assets folder and import 
 
 export const skills = [
     {
+        imageUrl: nestjs,
+        name: "nestjs",
+        type: "Back-End",
+    },
+    {
+        imageUrl: solidity,
+        name: "solidity",
+        type: "Blockchain",
+    },
+    {
+        imageUrl: firebase,
+        name: "firebase",
+        type: "Developer Tools",
+    },
+    {
+        imageUrl: php,
+        name: "php",
+        type: "Web Technologies",
+    },
+    {
+        imageUrl: mysql,
+        name: "mysql",
+        type: "Databases",
+    },
+    {
+        imageUrl: postgresql,
+        name: "postgresql",
+        type: "Databases",
+    },
+    {
+        imageUrl: pma,
+        name: "PhpMyAdmin",
+        type: "Developer Tools",
+    },
+    {
+        imageUrl: figma,
+        name: "figma",
+        type: "Developer Tools",
+    },
+    {
         imageUrl: css,
         name: "CSS",
-        type: "Frontend",
+        type: "Web Technologies",
     },
     {
         imageUrl: express,
@@ -42,22 +94,22 @@ export const skills = [
     {
         imageUrl: git,
         name: "Git",
-        type: "Version Control",
+        type: "Developer Tools",
     },
     {
         imageUrl: github,
         name: "GitHub",
-        type: "Version Control",
+        type: "Developer Tools",
     },
     {
         imageUrl: html,
         name: "HTML",
-        type: "Frontend",
+        type: "Web Technologies",
     },
     {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
+        type: "Web Technologies",
     },
     {
         imageUrl: mongodb,
@@ -116,7 +168,7 @@ export const experiences = [
         title: "Blockchain Developer",
         company_name: "Kayros",
         icon: kayros,
-        iconBg: "#accbe1",
+        iconBg: "  #A0c9ff ",
         date: "Mars 2023 – Present",
         points: [
             "In my role at Kayros, I made significant contributions to various key projects, showcasing my expertise and dedication as a developer.",
@@ -128,8 +180,8 @@ export const experiences = [
     {
         title: "Web and Mobile Developer",
         company_name: "WhiteCape Technologies",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        icon: whitecape,
+        iconBg: "rgba(255,255,255,0.7)",
         date: "August 2022 – Septembre 2023",
         points: [
             "I had the privilege of working at Whitecape for a total duration of 1 year and 8 months, comprising 6 months as an intern followed by 1 year and 2 months as a full-time employee, starting in February.",
@@ -141,8 +193,8 @@ export const experiences = [
     {
         title: "SEO Specialist",
         company_name: "IH Polymer Enginnering",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: polymerengineering,
+        iconBg: "rgba(0,0,0,0.7)",
         date: "December 2020 – Juin 2021",
         points: [
             "During my first year of university, I embarked on my internship journey with IH Polymer Engineering, where I had the opportunity to showcase my web development skills. I initially created and hosted their static website, and my work was well-received.",
@@ -174,45 +226,38 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        iconUrl: kayros,
+        theme: 'btn-back-pink',
+        name: 'Kayros Wallet',
+        description: 'Designed and developed the Kayros Wallet, a versatile injected wallet that supports over 41 languages. Implemented comprehensive protocol support, allowing users to interact seamlessly with various blockchain networks. Created a Web3 gateway tailored for gamers, providing access to play-to-earn games and educational courses within the Kayros Academy. Empowered users to send, receive, and manage cryptocurrencies with user-friendly functionality',
+        link: 'https://www.kayros.world/',
     },
     {
-        iconUrl: threads,
+        iconUrl: car,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'SmartCity Information Integration Platform',
+        description: 'Developed a bilingual (French and Arabic) cross-platform application that facilitates seamless transmission of information, proposals, and requests to an integrated ERP system (ODOO). Implemented robust user authentication, email verification for registration, and password change functionality to ensure data security. Empowered users with access to up-to-date municipal news, proposals, vital information, and efficient channels for submitting    reclamations.',
+        link: 'https://www.ihpolymerengineering.com/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'Utility Meter Management App (UMMA)',
+        description: 'Architected and developed the Utility Meter Management App (UMMA) to facilitate user access to GAZ, ELECTRIC, and    WATER meters sourced from the ODOO ERP system. Incorporated cutting-edge OCR technology for seamless meter reading and real-time updates to the ERP system, streamlining    utility management. Implemented robust security measures, including secure sign-in and password change functionality, to enhance user account  management and data protection.',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: car,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Decentralized Voting System (NearVote)',
+        description: 'Conceptualized and engineered the NearVote platform, a decentralized voting system that empowers administrators to create and manage VoteRooms, VoteParties, and Voters.Integrated invitation emails, user account configurations, and secure voting through Near Protocol wallets, ensuring a transparent and secure voting process.Enabled voters to securely participate and access real-time party results, enhancing the democratic voting experience.',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
-        iconUrl: estate,
+        iconUrl: polymerengineering,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'IH Polymer Engineering Showcase Website',
+        description: 'Crafted a static showcase website for IH Polymer Engineering, serving as an informative platform to showcase the company’s  extensive expertise in polymer research, product development, and engineering solutions.Designed a modern and concise online presence that conveys professionalism and a steadfast commitment to delivering high-quality polymer engineering solutions.',
+        link: 'https://www.ihpolymerengineering.com/',
     }
 ];

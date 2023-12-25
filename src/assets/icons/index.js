@@ -26,7 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-
+import nestjs from './nestjs.svg'
+import solidity from './solidity.svg'
+import firebase from './firebase.png'
+import php from './php.svg'
+import mysql from './mysql.png'
+import postgresql from './postgresql.png'
+import pma from './pma.png'
+import figma from './figma.png'
 export {
     css,
     express,
@@ -55,5 +62,14 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    nestjs,
+    solidity,
+    firebase,
+    php,
+    mysql,
+    postgresql,
+    pma,
+    figma
+
 }

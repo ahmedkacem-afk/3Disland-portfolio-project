@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, kayros } from "../assets/images";
+
 import {
     car,
     contact,
@@ -112,57 +113,45 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Blockchain Developer",
+        company_name: "Kayros",
+        icon: kayros,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Mars 2023 – Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "In my role at Kayros, I made significant contributions to various key projects, showcasing my expertise and dedication as a developer.",
+            "I took on the responsibility of monitoring the Kayros Wallet app, ensuring its smooth operation and addressing any issues promptly. Furthermore, I designed and implemented unit tests to rigorously evaluate the communication between different protocols within the application.",
+            "In addition to technical contributions, I made a meaningful impact by adding support for 41 different languages to the Kayros Wallet. This multilingual capability not only expanded the user base but also demonstrated my versatility in addressing diverse user needs.",
+            "My versatility extended to front-end development as well. I actively contributed to improving the user interface and overall user experience .Notably, I contributed to the implementation of the Wallet Connect service, ensuring seamlessconnectivity with external wallets. Additionally, I integrated Kayros into the Wallet Connect Explorer, enabling users to connect to decentralized applications (DApps) using Kayros, further expanding our ecosystem’s utility.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Web and Mobile Developer",
+        company_name: "WhiteCape Technologies",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "August 2022 – Septembre 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I had the privilege of working at Whitecape for a total duration of 1 year and 8 months, comprising 6 months as an intern followed by 1 year and 2 months as a full-time employee, starting in February.",
+            "During my time at Whitecape, I actively honed my skills as a web and mobile developer. I capitalized on the  opportunity to work on various projects, contributing to the development of two mobile applications. My contributions  were pivotal in the successful supervision of three final study projects for engineering students, all of whom graduated with honors under my guidance.",
+           
+            "My tenure at Whitecape not only allowed me to grow professionally but also provided me with the gratification of mentoring and supporting emerging talents in the field. It was a period of dynamic growth and achievement, both for myself and the teams I collaborated with.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "SEO Specialist",
+        company_name: "IH Polymer Enginnering",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        date: "December 2020 – Juin 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "During my first year of university, I embarked on my internship journey with IH Polymer Engineering, where I had the opportunity to showcase my web development skills. I initially created and hosted their static website, and my work was well-received.",
+            "What started as an internship soon evolved into a part-time job. IH Polymer Engineering was highly impressed with my work and proposed that I take on additional responsibilities, including optimizing the website for search engines (SEO) and developing new features. This transition marked a significant milestone in my career.",
+         
+            "I was deeply committed to delivering results, and as a part-time web developer, I dedicated three hours every day, including weekends, to ensure the website’s continuous improvement. My primary focus was on identifying strategies, techniques, and tactics to increase website traffic and secure high-ranking placements in search engine results. The targeted keywords for SEO included ”IH POLYMER,” ”IH POLYMER ENGINEERING,” and ”IH ENGINEERING.” My experience at IH Polymer Engineering not only allowed me to apply my skills in a real-world setting but also demonstrated my dedication and adaptability in taking on additional responsibilities as they arose.",
         ],
     },
+
 ];
 
 export const socialLinks = [

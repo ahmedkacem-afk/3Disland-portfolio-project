@@ -63,7 +63,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .info-box {
-    @apply mx-5 relative flex text-white flex-col gap-3 max-w-2xl neo-brutalism-blue pt-4 pb-12 px-8;
+    @apply mx-5 relative flex text-white flex-col gap-3 max-w-2xl neo-brutalism-tan pt-4 pb-12 px-8;
   }
 
   .neo-btn {
@@ -166,6 +166,14 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 /* Neo Brutalism */
+.neo-brutalism-tan{
+  background: #936f4d;
+  position: relative;
+  border-radius: 10px;
+  border: #936f4d;
+  box-shadow: 0.6vmin 0.6vmin #785841, 1vmin 1vmin #97645f, 1vmin 1vmin #97645f,
+    0.65vmin 1vmin #97645f, 1vmin 0.65vmin #97645f;
+}
 .neo-brutalism-blue {
   background: #2b77e7;
   position: relative;

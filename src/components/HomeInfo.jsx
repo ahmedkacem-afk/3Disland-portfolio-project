@@ -17,8 +17,8 @@ const renderContent ={
     //each stage has its own texture and information 
     //stages are from 1 to 4 changing as we rotate the island 
     1:(
-        <h1 className='sm:text-x1 sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-            Hi, I am <span className="font-semibold">Ahmed</span>
+        <h1 className='sm:text-x1 sm:leading-snug text-center neo-brutalism-tan py-4 px-8 text-white mx-5'>
+            Hi, I am <span className="font-semibold">Heithem</span>
             <br />
             A Software Engineer from Tunisia
         </h1>

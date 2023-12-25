@@ -17,7 +17,13 @@ const Contact = () => {
   const formRef=useRef(null)
   const [form, setForm] = useState({name:'',email:'',message:''})
   const [isLoading, setIsLoading] = useState(false)
-   /**
+  useEffect(() => {
+    window.scrollTo(0,0)
+  
+    
+  }, [form])
+   
+  /**
    * Handles changes in the form input fields.
    * @param {Object} e - The event object.
    */
